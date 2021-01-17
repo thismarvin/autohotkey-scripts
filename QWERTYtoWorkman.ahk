@@ -14,10 +14,10 @@ CapsLock & z::Send {Ctrl down}z{Ctrl up}
 CapsLock & x::Send {Ctrl down}x{Ctrl up}
 CapsLock & v::Send {Ctrl down}c{Ctrl up}
 CapsLock & b::Send {Ctrl down}v{Ctrl up}
-CapsLock & h::h
-CapsLock & k::k
-CapsLock & j::j
-CapsLock & l::l
+CapsLock & h::Send {Left}
+CapsLock & j::Send {Down}
+CapsLock & k::Send {Up}
+CapsLock & l::Send {Right}
 
 ; Map QWERTY to Workman.
 w::d
